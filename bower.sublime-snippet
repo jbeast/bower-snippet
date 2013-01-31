@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+{
+  "name": "${1}",
+  "version": "${2:0.1}",
+  "main": "${3:./styles/main.css}",
+  "dependencies": {
+    "${4}": "${5}"
+  }
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>bower</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.json</scope>
+</snippet>
